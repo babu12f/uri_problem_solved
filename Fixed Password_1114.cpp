@@ -1,0 +1,26 @@
+#include <iostream>
+#include <algorithm>
+#include <vector>
+#include <string>
+#include <iomanip>
+#include <stdio.h>
+
+#define pf printf
+#define sf scanf
+
+using namespace std;
+
+int main()
+{
+    int pass;
+
+    while(cin>>pass)
+    {
+        if(pass==2002){ cout<<"Acesso Permitido"<<endl; break;}
+        else cout<<"Senha Invalida"<<endl;
+    }
+
+    return 0;
+}
+
+
